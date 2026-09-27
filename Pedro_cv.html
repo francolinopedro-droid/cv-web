@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - [Tu Nombre]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+            --card-bg: #ffffff;
+            --primary-color: #3b82f6;
+            --secondary-color: #6b7280;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        header .subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        header .contact-info {
+            font-size: 1rem;
+            color: var(--text-color);
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: var(--bg-color);
+            padding: 0.4rem 1rem;
+            border-radius: 9999px;
+            margin-top: 0.5rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--bg-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .item {
+            margin-bottom: 1.2rem;
+        }
+
+        .item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .item .meta {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            font-style: italic;
+            margin-bottom: 0.4rem;
+        }
+
+        .item p {
+            font-size: 0.95rem;
+            color: #374151;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background-color: #e0e7ff;
+            color: #3730a3;
+            padding: 0.4rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .profile-text {
+            font-size: 1rem;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--bg-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- 👇 CAMBIA ESTO POR TU NOMBRE REAL -->
+            <h1>[Tu Nombre]</h1>
+            <p class="subtitle">Estudiante de Desarrollo de Videojuegos | Músico</p>
+            <p class="contact-info">📞 +54 9 11 5376-7110</p>
+        </header>
+
+        <section>
+            <h2>Sobre Mí</h2>
+            <p class="profile-text">
+                Tengo 20 años y una gran pasión por la música y la tecnología. Mi formación combina la disciplina y la creatividad adquiridas en mis estudios musicales con el pensamiento lógico y la programación que aprendí en el mundo del desarrollo web y de videojuegos. Busco unirme a proyectos donde pueda aplicar mi perfil híbrido y seguir aprendiendo.
+            </p>
+        </section>
+
+        <section>
+            <h2>Educación</h2>
+            
+            <div class="item">
+                <h3>Tecnicatura Universitaria en Desarrollo de Videojuegos</h3>
+                <p class="meta">Universidad Nacional Raúl Scalabrini Ortiz (UNSO) | En curso</p>
+                <p>
+                    Formación enfocada en el desarrollo integral de videojuegos. Adquiero conocimientos en diseño (game design), programación, arte y narrativa interactiva. Preparado para colaborar en equipos interdisciplinarios para la creación y comercialización de proyectos.
+                    <br><a href="https://www.unso.edu.ar/es/" target="_blank">Sitio oficial de la UNSO</a>
+                </p>
+            </div>
+
+            <div class="item">
+                <h3>Diseño y Programación Web / Diseño y Programación de Videojuegos</h3>
+                <p class="meta">Escuela Da Vinci | 2 años cursados</p>
+                <p>
+                    Realicé un año de la carrera de Diseño y Programación Web y otro año de la carrera de Diseño y Programación de Videojuegos. Adquirí las bases de la creación de sitios web, estrategias de comunicación digital y el desarrollo de prototipos de videojuegos.
+                    <br><a href="https://davinci.edu.ar/" target="_blank">Sitio oficial de Da Vinci</a>
+                </p>
+            </div>
+
+            <div class="item">
+                <h3>Bachillerato en Música con Especialidad en Intérprete</h3>
+                <p class="meta">Escuela Superior de Educación Artística en Música "Juan Pedro Esnaola" | Finalizado</p>
+                <p>
+                    Obtuve el título de Bachillerato Orientado en Educación y realicé la carrera de Intérprete de Nivel Básico. Mi formación incluyó 4 años de estudio de instrumentos como percusión, guitarra criolla y eléctrica, y piano. Complementé mi educación con materias como Lenguaje Musical, Audioperceptiva, Coro y Conjunto Instrumental.
+                    <br><a href="https://escuelademusicajpesnaola.blogspot.com/" target="_blank">Blog de la Escuela Esnaola</a>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Conocimientos y Habilidades</h2>
+            <ul class="skills-list">
+                <li>Percusión</li>
+                <li>Guitarra Criolla</li>
+                <li>Guitarra Eléctrica</li>
+                <li>Piano</li>
+                <li>Programación Web (HTML, CSS, JS)</li>
+                <li>Diseño de Videojuegos</li>
+                <li>Lógica de Programación</li>
+                <li>Trabajo en Equipo</li>
+                <li>Creatividad</li>
+            </ul>
+        </section>
+
+        <footer>
+            <!-- 👇 CAMBIA ESTO POR TU NOMBRE REAL -->
+            <p>CV de [Tu Nombre] &copy; 2026</p>
+        </footer>
+    </div>
+
+</body>
+</html>
